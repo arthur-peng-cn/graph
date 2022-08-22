@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T03:00:23.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.5" etag="7kX-N37_v7m0kQ7HuhQO" type="github"><diagram id="GY8ndI_eqoVgxy_IcW_6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-22T03:00:39.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="a9IcR00DXyrdOXPlGjGw" version="20.2.5" type="github">
+  <diagram id="GY8ndI_eqoVgxy_IcW_6" name="Page-1">
+    <mxGraphModel dx="1324" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0PR8yT9JgosqcyUczLY8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#CCFF99;fontColor=#036897;fillColor=none;strokeColor=#036897;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="440" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-2" value="&lt;b&gt;&lt;font style=&quot;background-color: rgb(204, 255, 153);&quot; color=&quot;#036897&quot;&gt;FRPC&lt;/font&gt;&lt;/b&gt;" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#036897;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=ing" vertex="1" parent="1">
+          <mxGeometry x="590" y="325" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-3" value="" style="shape=mxgraph.cisco.people.androgenous_person;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-4" value="" style="shape=mxgraph.cisco.security.guard;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="228" width="88" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-5" value="&lt;font color=&quot;#036897&quot;&gt;扫描仪&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#036897;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.printer;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="770" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-6" value="&lt;font style=&quot;background-color: rgb(204, 255, 153);&quot; color=&quot;#036897&quot;&gt;Gitlab&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-bold-vol-3-1/256/gitlab-logo-duotone-128.png;fontColor=#FF3333;fillColor=#036897;spacingTop=-60;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="860" y="120" width="80" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-8" value="" style="shape=datastore;whiteSpace=wrap;html=1;labelBackgroundColor=#CCFF99;fontColor=#036897;strokeColor=#036897;fillColor=none;" vertex="1" parent="0PR8yT9JgosqcyUczLY8-7">
+          <mxGeometry width="80" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="0PR8yT9JgosqcyUczLY8-9" value="Database &lt;br&gt;Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#036897;" vertex="1" parent="0PR8yT9JgosqcyUczLY8-7">
+          <mxGeometry x="5" y="17" width="70" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
