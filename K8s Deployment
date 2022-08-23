@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T08:26:57.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_G9D15XYJHyht1ZkN9MR" version="20.2.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-23T08:29:00.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KWwlZpn8NCAqGDXvy7_6" version="20.2.6" type="github" pages="2">
   <diagram id="GY8ndI_eqoVgxy_IcW_6" name="basic service">
     <mxGraphModel dx="2146" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YuqWGhJ921bPi0VojepO-25" value="Ingress-nginx Service" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;fontColor=#00BEF2;strokeColor=#00BEF2;" vertex="1" parent="1">
+        <mxCell id="YuqWGhJ921bPi0VojepO-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;fontColor=#00BEF2;strokeColor=#00BEF2;" vertex="1" parent="1">
           <mxGeometry x="135" y="120" width="290" height="330" as="geometry" />
         </mxCell>
         <mxCell id="YuqWGhJ921bPi0VojepO-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;strokeColor=#2875E2;" vertex="1" parent="1">
@@ -150,6 +150,12 @@
         </mxCell>
         <mxCell id="YuqWGhJ921bPi0VojepO-28" value="Node Port" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="85" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqWGhJ921bPi0VojepO-33" value="Ingress-nginx" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="129" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqWGhJ921bPi0VojepO-34" value="Dispache request according to domain name" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="222" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
