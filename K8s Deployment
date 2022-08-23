@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T08:25:23.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oVDOIoZQQZuR05UxDp6Q" version="20.2.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-23T08:26:57.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_G9D15XYJHyht1ZkN9MR" version="20.2.6" type="github" pages="2">
   <diagram id="GY8ndI_eqoVgxy_IcW_6" name="basic service">
     <mxGraphModel dx="2146" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -127,8 +127,17 @@
         <mxCell id="YuqWGhJ921bPi0VojepO-20" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="1">
           <mxGeometry x="682" y="263" width="50" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="YuqWGhJ921bPi0VojepO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.28;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#00BEF2;curved=1;" edge="1" parent="1" source="YuqWGhJ921bPi0VojepO-21" target="YuqWGhJ921bPi0VojepO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="696" y="520" />
+              <mxPoint x="270" y="520" />
+              <mxPoint x="-105" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YuqWGhJ921bPi0VojepO-21" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="1">
-          <mxGeometry x="682" y="360" width="50" height="48" as="geometry" />
+          <mxGeometry x="682" y="360" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YuqWGhJ921bPi0VojepO-22" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;verticalAlign=top;fillColor=#00BEF2;strokeColor=#6881B3;fontColor=#0066CC;gradientColor=none;gradientDirection=north;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="440" y="270" width="40" height="40" as="geometry" />
