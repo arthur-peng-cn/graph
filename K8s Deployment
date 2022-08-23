@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T08:23:35.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vR8lZ72iJ5ziztQ81AJ6" version="20.2.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-23T08:25:23.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oVDOIoZQQZuR05UxDp6Q" version="20.2.6" type="github" pages="2">
   <diagram id="GY8ndI_eqoVgxy_IcW_6" name="basic service">
     <mxGraphModel dx="2146" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,11 +76,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YuqWGhJ921bPi0VojepO-25" value="Ingress-nginx Service" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="135" y="35" width="290" height="510" as="geometry" />
+        <mxCell id="YuqWGhJ921bPi0VojepO-25" value="Ingress-nginx Service" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;fontColor=#00BEF2;strokeColor=#00BEF2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="120" width="290" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="YuqWGhJ921bPi0VojepO-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="290" height="510" as="geometry" />
+        <mxCell id="YuqWGhJ921bPi0VojepO-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;strokeColor=#2875E2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="110" width="290" height="340" as="geometry" />
         </mxCell>
         <mxCell id="YuqWGhJ921bPi0VojepO-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile_services;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="210" width="32.5" height="50" as="geometry" />
@@ -136,14 +136,11 @@
         <mxCell id="YuqWGhJ921bPi0VojepO-23" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;verticalAlign=top;fillColor=#00BEF2;strokeColor=#6881B3;fontColor=#0066CC;gradientColor=none;gradientDirection=north;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="630" y="267" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YuqWGhJ921bPi0VojepO-26" value="Text" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="270" width="40" height="20" as="geometry" />
+        <mxCell id="YuqWGhJ921bPi0VojepO-27" value="Real Service&lt;br&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="115" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YuqWGhJ921bPi0VojepO-27" value="Text" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="270" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="YuqWGhJ921bPi0VojepO-28" value="Text" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="270" width="40" height="20" as="geometry" />
+        <mxCell id="YuqWGhJ921bPi0VojepO-28" value="Node Port" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="85" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
