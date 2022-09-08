@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T06:55:45.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RmzDCygWO_fbHx8VM-G-" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-08T06:57:06.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cxWpyPsPQrQR7v0sePrn" version="20.2.8" type="github" pages="2">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="790" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -122,6 +122,9 @@
         </mxCell>
         <mxCell id="zbhTqvk-uiEobAf8OaEz-8" value="MCU 不需要太多，还是逻辑芯片，数字芯片，学校不希望更换设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbhTqvk-uiEobAf8OaEz-9" value="场内" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="100" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
