@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T07:59:31.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="olS7_bEpa7LEa4oVfgQT" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-08T08:06:28.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ugJIvQUT_W1cP-KZr1K4" version="20.4.0" type="github" pages="3">
   <diagram id="GY8ndI_eqoVgxy_IcW_6" name="basic service">
     <mxGraphModel dx="1687" dy="737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -210,6 +210,14 @@
         <mxCell id="JVPqVYkmD36-ZGJNwpNa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JVPqVYkmD36-ZGJNwpNa-1" target="JVPqVYkmD36-ZGJNwpNa-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JVPqVYkmD36-ZGJNwpNa-1" target="JVPqVYkmD36-ZGJNwpNa-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="96" y="261" />
+              <mxPoint x="96" y="721" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JVPqVYkmD36-ZGJNwpNa-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="29" y="230.5" width="30" height="60" as="geometry" />
         </mxCell>
@@ -237,7 +245,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JVPqVYkmD36-ZGJNwpNa-6" value="芯云商城APP管理&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-6" value="管理芯云商城APP&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="161" y="220" width="125" height="81" as="geometry" />
         </mxCell>
         <mxCell id="JVPqVYkmD36-ZGJNwpNa-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JVPqVYkmD36-ZGJNwpNa-10" target="JVPqVYkmD36-ZGJNwpNa-18">
@@ -284,7 +292,7 @@
             <mxPoint x="417" y="620.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JVPqVYkmD36-ZGJNwpNa-27" value="芯云派固件升级" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-27" value="升级芯云派固件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="189" y="591" width="129" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="JVPqVYkmD36-ZGJNwpNa-28" value="文件上传" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -295,6 +303,27 @@
         </mxCell>
         <mxCell id="JVPqVYkmD36-ZGJNwpNa-30" value="芯云派固件管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="418" y="594" width="129" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JVPqVYkmD36-ZGJNwpNa-35" target="JVPqVYkmD36-ZGJNwpNa-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JVPqVYkmD36-ZGJNwpNa-35" target="JVPqVYkmD36-ZGJNwpNa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JVPqVYkmD36-ZGJNwpNa-35" target="JVPqVYkmD36-ZGJNwpNa-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-35" value="管理 APP评论" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192" y="692" width="129" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-37" value="添加评论" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="418" y="692" width="118" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-39" value="评论修改" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="418" y="761" width="118" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JVPqVYkmD36-ZGJNwpNa-41" value="评论删除" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="418" y="834" width="118" height="58.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
