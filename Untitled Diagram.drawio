@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T01:24:02.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0JAQxs1EpVA_EcZCBrpg" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-29T03:58:45.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PMF6tjI3BJsZFXN5ggbL" version="20.4.1" type="github" pages="3">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1002" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7TaniN4Dx0ZpHX9himGP" name="Page-2">
+  <diagram id="7TaniN4Dx0ZpHX9himGP" name="仿真系统">
     <mxGraphModel dx="1002" dy="612" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -674,6 +674,73 @@
         </mxCell>
         <mxCell id="7btyrSFVanGgr0JFUO_y-122" value="DUT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="728" y="1056" width="43" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hpjrdsSTA1aumO7lBX8L" name="PVD方案">
+    <mxGraphModel dx="1002" dy="1809" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-1" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#173eff&quot;&gt;装料控制机构&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=mxgraph.electrical.electro-mechanical.motor_2;html=1;shadow=0;dashed=0;align=center;fontSize=30;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="-110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;出料传输控制结构&lt;/span&gt;" style="shape=mxgraph.electrical.electro-mechanical.motor_2;html=1;shadow=0;dashed=0;align=center;fontSize=30;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="-113" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-7" value="教师控制系统" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="1">
+          <mxGeometry x="829" y="-496" width="53" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;真空腔控制机构&lt;/font&gt;" style="shape=mxgraph.electrical.electro-mechanical.motor_2;html=1;shadow=0;dashed=0;align=center;fontSize=30;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="372" y="-206" width="71.67" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-10" value="MES生产管理系统" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mainframe;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-324" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jZ0fNlYQgsxAk-bwqi82-11" target="jZ0fNlYQgsxAk-bwqi82-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.809;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;fontColor=#173EFF;" edge="1" parent="1" source="jZ0fNlYQgsxAk-bwqi82-11" target="jZ0fNlYQgsxAk-bwqi82-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#173EFF;" edge="1" parent="1" source="jZ0fNlYQgsxAk-bwqi82-11" target="jZ0fNlYQgsxAk-bwqi82-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="-189" />
+              <mxPoint x="490" y="-106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-11" value="PLC运动控制系统" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_plc;" vertex="1" parent="1">
+          <mxGeometry x="544" y="-228" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-12" value="温控平台" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_temperature_vibration_sensor;" vertex="1" parent="1">
+          <mxGeometry x="236" y="-202" width="31" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/622_human_man_reality_user_virtual_vr-128.png;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-539" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-27" value="仿真系统工控机" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;dashed=1;fontSize=16;fontColor=#173EFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="644" y="-356" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-28" value="裸眼3D工艺展示渲染控制系统" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;dashed=1;fontSize=16;fontColor=#173EFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="229" y="-356" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-31" value="" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Server_128x128.png;dashed=1;fontSize=16;fontColor=#173EFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="229" y="-465" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-32" value="虚拟现实渲染服务器" style="image;html=1;image=img/lib/clip_art/networking/Print_Server_128x128.png;dashed=1;fontSize=16;fontColor=#173EFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="421" y="-356" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-33" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/tablet_pc.svg;fontSize=16;fontColor=#173EFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="51" y="-356" width="36.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-35" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.cloud_computer;dashed=1;fontSize=16;fontColor=#173EFF;" vertex="1" parent="1">
+          <mxGeometry x="31" y="-591" width="80.68" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="jZ0fNlYQgsxAk-bwqi82-36" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;dashed=1;fontSize=16;fontColor=#173EFF;" vertex="1" parent="1">
+          <mxGeometry x="51" y="-247" width="50" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
