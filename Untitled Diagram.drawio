@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T07:40:00.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="p0hyTnSioaKTYSHgSmOw" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-09T08:34:45.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pY5WD2v4FJBeE48hWipT" version="20.7.4" type="github" pages="6">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1026" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1022,10 +1022,67 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4kGUQ-GLYeaBSUCqADGZ" name="流程图">
-    <mxGraphModel dx="1026" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1243" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-1" value="原始测试指令拦截" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-2" value="原始测试指令分解与翻译" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-3" value="测试指令分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-4" value="资源Context记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-5" value="编码器初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-6" value="将备份的资源Context和测试指令序列打包成一个测试事务组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="750" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-8" value="非测量指令" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="600" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-11" value="前一条是测量指令" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="670" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-13" value="发送到解码调度器&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="810" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-15" value="资源Context初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-16" value="解码器初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-17" value="接收来自编码器的测试事务包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-18" value="将测试事务包放入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-19" value="根据调度规则选择一个测试事务包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="300" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-20" value="根据Context资源差异初始化资源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-21" value="资源Context备份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-22" value="将测试指令加入测试序列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-23" value="清空测试序列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pFvoa1SdTtafP1t_YUMf-24" value="计算测试事务包的资源context需求和当前实际的context需求的差异" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="230" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
